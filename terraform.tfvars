@@ -1,2 +1,2 @@
-project_id = "your-project-id"
+project_id = "terraform-gcs-500408"
 region     = "asia-south1"
