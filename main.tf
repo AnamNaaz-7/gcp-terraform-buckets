@@ -4,10 +4,10 @@ module "gcs_buckets" {
 
   project_id  = var.project_id
   names       = ["first", "second"]
-  prefix      = "my-unique-prefix"
+  prefix      = "anam-unique-bucket"
 
   set_admin_roles = true
-  admins = ["group:foo-admins@example.com"]
+  admins = ["group:anamnaaz607@gmail.com"]
 
   versioning = {
     first = true
