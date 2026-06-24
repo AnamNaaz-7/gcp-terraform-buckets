@@ -7,13 +7,13 @@ module "gcs_buckets" {
   prefix      = "anam-unique-bucket"
 
   set_admin_roles = true
-  admins = ["group:anamnaaz607@gmail.com"]
+  admins = ["user:anamnaaz607@gmail.com"]
 
   versioning = {
     first = true
   }
 
   bucket_admins = {
-    second = "user:spam@example.com,user:eggs@example.com"
+    second = "user:anamnaaz607@gmail.com"
   }
 }
